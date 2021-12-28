@@ -168,3 +168,6 @@ gun<-kable(data, "html") %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 
 gun
+
+write.csv(data,"gun.csv",row.names=FALSE)
+
